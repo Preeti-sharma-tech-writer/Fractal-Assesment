@@ -6,13 +6,11 @@ Use these standards when creating or updating internal data and analytics docume
 
 - Use sentence case.   
 - For metric and data asset reference pages, use the official metric or asset name as the title—for example, **Total Converted Leads**.
-- Begin procedure titles with an imperative verb, such as **Validate dashboard results**,” and troubleshooting titles with **Resolve** or **Fix**.
-
+- Begin procedure titles with an imperative verb, such as **Validate dashboard results**,” and troubleshooting titles with **Resolve** or **Fix**.  
 - Write in active voice, present tense, and plain American English.
 - Use **you** for reader actions and begin procedural steps with a verb.  
 - Lead with what readers can understand, complete, decide, or resolve. 
-- Avoid slang, hype, blame, unnecessary formality, and unsupported claims such as **always accurate** or **real time**.
-
+- Avoid slang, hype, blame, unnecessary formality, and unsupported claims such as **always accurate** or **real time**.  
 - Use one approved term for each concept. Explain the business meaning before the technical implementation.  
 - Define unfamiliar terms in the glossary or link to the relevant topic in the Data & Analytics Knowledge Base docs. Spell out abbreviations on first use.
 
