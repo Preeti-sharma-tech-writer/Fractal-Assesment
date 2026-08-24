@@ -105,17 +105,9 @@ If a journey contains four qualifying touchpoints, the `'linear'` model assigns 
 
 ## Update log
 
-No update history was provided.
+| Date | Version | Change | Customer impact | Author or approver |
+| --- | --- | --- | --- | --- |
+| 2026-08-23 | V1 | [First Draft Creation] | 'No impact` | Preeti |
 
-## Confirm with PM
 
-- Does the user identifier represent an internal customer or application user ID, a Facebook user ID, a Google user ID, or another identifier?
-- What are the exact field names for the user identifier and IP address?
-- What event or events qualify as a conversion for this table?
-- What conditions determine whether a touchpoint qualifies for attribution?
-- What is the table's grain, and what uniquely identifies each record?
-- Which team owns the table, and what is the approved support route?
-- What are the complete upstream sources and downstream consumers?
-- What time zone or hourly schedule governs the refresh?
-- What is the approved long-term role-based contact for authorizing use of the `'linear'` model?
-- What information should be recorded in the update log?
+
