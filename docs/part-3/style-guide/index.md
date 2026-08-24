@@ -45,5 +45,5 @@ Use standardized callouts:
 - Use descriptive link text, not **click here**.
 - Link to approved, maintained content at the point of need, and place prerequisite links before procedural steps.  
 - Name the target page or section instead of using  **above** or  **below**.
-
-For dependencies, identify the upstream or downstream asset, relationship, effect of delay or change, owner, and canonical reference. Link only the first meaningful mention in a section and keep related resources selective.
+- For dependencies, identify the upstream or downstream asset, relationship, effect of delay or change, owner, and canonical reference.
+- Link only the first meaningful mention in a section and keep related resources selective.
