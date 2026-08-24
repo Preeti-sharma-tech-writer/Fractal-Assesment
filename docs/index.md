@@ -16,6 +16,6 @@ This submission presents a governed approach to metric documentation, knowledge-
 - [Data Documentation Quick Style Guide](part-3/style-guide/)
 - [Practical Application: `mart_attribution_touchpoints_v1`](part-3/practical-application/)
 
-## Part 4
+## Part 4: Customer Support AI Bot
 
-Part 4 is in progress.
+- [The AI Bot Autonomous Resolution Logic Guide](https://drive.google.com/file/d/1Gx5JYVMEZJWMN6CDL3lvhf4BEEV16FYG/view?usp=sharing)
