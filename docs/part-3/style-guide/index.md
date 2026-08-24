@@ -27,20 +27,25 @@ Use inline code and preserve exact case for:
 |  Literal values: | `'SPAM'`, `TRUE`, `NULL`| 
 |  Files, jobs, APIs, and paths:|  `models/attribution.sql`| 
 
-Bold interface labels and approved metrics on first definition. Put multi-line queries in fenced Markdown code blocks with a language identifier. Introduce the sample, test it, explain its result, and remove credentials or sensitive information.
+- Bold interface labels and approved metrics on first definition.   
+- Put multi-line queries in fenced Markdown code blocks with a language identifier.   
+- Remove credentials or sensitive information.
 
 ## Callouts
 
-Use standardized callouts sparingly:
+Use standardized callouts:
 
-- **Note:** Supporting context or a caveat
-- **Tip:** An optional recommendation and its benefit
-- **Caution:** A condition that may affect interpretation
-- **Warning:** A material reporting, security, compliance, or production risk
-- **Beta:** A feature or method still under restricted testing
+| ---| --| 
+| **Note:** | Supporting context or a caveat | 
+|  **Tip:** | An optional recommendation and its benefit| 
+|  **Caution:** | A condition that may affect interpretation| 
+|  **Warning:** | A material reporting, security, compliance, or production risk| 
+|  **Beta:** | A feature or method still under restricted testing| 
 
 ## Links and dependencies
 
-Use descriptive link text, not “click here.” Link to approved, maintained content at the point of need, and place prerequisite links before procedural steps. Name the target page or section instead of using “above” or “below.”
+- Use descriptive link text, not **click here **.
+- Link to approved, maintained content at the point of need, and place prerequisite links before procedural steps.  
+- Name the target page or section instead of using  **above ** or  **below **.
 
 For dependencies, identify the upstream or downstream asset, relationship, effect of delay or change, owner, and canonical reference. Link only the first meaningful mention in a section and keep related resources selective.
