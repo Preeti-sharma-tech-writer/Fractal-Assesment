@@ -44,13 +44,18 @@ The system attempts to associate each Facebook or Google click with a known cust
 
 If the user identifier is `NULL`, the system uses the device's IP address as a secondary matching signal.
 
-<aside class="callout callout--caution" role="note">
+<aside class="callout callout--warning" role="alert">
   <div class="callout__title">
-    <img class="callout__icon" src="/icons/triangle-exclamation.svg" alt="" aria-hidden="true">
-    <strong>Caution</strong>
+    <img
+      class="callout__icon"
+      src="/icons/warning.svg"
+      alt=""
+      aria-hidden="true">
+    <strong>Warning</strong>
   </div>
   <p>IP address matching can connect a click to the wrong user, fail to connect interactions from the same user, or combine activity from multiple users. Interpret results that rely on IP address matching carefully.</p>
 </aside>
+  
 
 IP address matching can be inaccurate because:
 
