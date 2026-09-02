@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en" data-visualize-standalone>
 <head>
@@ -843,7 +842,45 @@ svg {
   <script>
     (()=>{
       const data=[
-        {t:"Learn about your solution",d:"Understand the Fractal solution, its measures, and the data behind it.",s:[
+        {
+  t:"Start here",
+  d:"Quickly access the most-used and officially approved analytics references.",
+  s:[
+    {
+      t:"Most-used references",
+      d:"Use these entry points before searching individual documentation pages.",
+      a:[
+        [
+          "Canonical metric catalog",
+          "Find certified business metrics, calculation rules, owners, and approval status."
+        ],
+        [
+          "Approved production datasets",
+          "Find certified tables, views, and models that should be used for reporting."
+        ],
+        [
+          "Data and reporting troubleshooting",
+          "Resolve common metric, freshness, access, and dashboard issues."
+        ]
+      ]
+    },
+    {
+      t:"New user essentials",
+      d:"Complete the essential steps for using the analytics knowledge base.",
+      a:[
+        [
+          "How to find canonical content",
+          "Explains how certified pages, owners, and review dates identify authoritative documentation."
+        ],
+        [
+          "Customer onboarding",
+          "Lists the access, platform, data, and reporting steps for new users."
+        ]
+      ]
+    }
+  ]
+},
+        {t:"Understand metrics and data",d:"Find approved metric definitions, production data assets, lineage, and supporting business context.",s:[
           {t:"Get started",d:"Learn what the solution does and what is required to begin using it.",a:[
             ["Solution overview","Explains what the Fractal solution does and how it supports the business."],["Business objectives","Describes the customer problems and outcomes the solution addresses."],["Solution architecture","Shows how the systems and tools in the solution work together."],["Platforms and tools","Introduces the platforms used to store, analyse, and display information."],["User roles and responsibilities","Clarifies what customers, analysts, engineers, and Fractal teams manage."],["Access and permissions","Explains who can use the solution and how access is controlled."],["Customer onboarding","Lists the steps a new user completes before using the solution."]]},
           {t:"Understand business metrics",d:"Find approved definitions and calculation rules for business measures.",a:[
@@ -862,15 +899,13 @@ svg {
             ["Approved data analysis","Combines finding data, selecting an approved source, and beginning an analysis."],["Metric and dashboard validation","Combines metric lookup with checks for calculations, filters, dates, and results."],["Analytics result use and sharing","Explains how to interpret, export, and securely share analytical results."],["New reporting content requests","Explains how to request a new measure, report, or dashboard."]]}
         ]},
         {t:"Manage issues and support",d:"Resolve problems, follow standards, review changes, and contact support.",s:[
-          {t:"Fix data and reporting issues",d:"Provides a single troubleshooting entry point for common data and reporting problems.",a:[]},
+      
           {t:"Follow data standards",d:"Understand the rules used to keep measures and data assets controlled and current.",a:[
             ["Metric governance","Explains how measures are defined, reviewed, approved, changed, and retired."],["Change management","Explains how solution changes are reviewed and communicated to customers."],["Asset deprecation","Explains how outdated tables, reports, and other assets are replaced and removed."]]},
-          {t:"Report an issue",d:"Choose the correct route for reporting a problem with the delivered solution.",a:[
-            ["Data issue reporting","Explains what to provide when information is missing, delayed, or incorrect."],["Dashboard issue reporting","Explains what to provide when a dashboard fails or shows unexpected results."],["Analytics and AI issue reporting","Explains how to report an inaccurate or unexpected analytical result."]]},
+          {t:"Report an issue",d:"Choose the correct route for reporting a problem with the delivered solution.",a:[]},
           {t:"Review release notes",d:"Track important changes made to the customer solution.",a:[
-            ["New features and improvements","Summarizes newly available capabilities and enhancements."],["Fixes and known limitations","Lists resolved problems and limitations that still affect customers."],["Data and metric changes","Summarizes changes to data sources, definitions, or calculations."]]},
-          {t:"Request access and contact support",d:"Request solution access or contact the customer support team.",a:[
-            ["Data and dashboard access requests","Explains how to request access to approved data and reporting content."],["Customer support contacts","Identifies the correct support contact for different questions."],["Unresolved issue escalation","Explains how a high-impact or unresolved problem is escalated."]]}
+            ["New features and improvements","Summarizes newly available capabilities and enhancements."],["Fixes and known limitations","Lists resolved problems and limitations that still affect customers."]]},
+          {t:"Contact support ",d:"Request solution access or contact the customer support team.",a:[]}
         ]}
       ];
       const esc=s=>s.replace(/[&<>\"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
